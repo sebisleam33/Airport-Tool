@@ -14,9 +14,6 @@ public class TicketsController : ControllerBase
         _ticketService = ticketService;
     }
 
-    /// <summary>
-    /// Get tickets for a given flight (availability & prices).
-    /// </summary>
     [HttpGet("by-flight/{flightId:int}")]
     public async Task<ActionResult<IReadOnlyList<TicketDto>>> GetByFlight(
         int flightId,
@@ -26,9 +23,6 @@ public class TicketsController : ControllerBase
         return Ok(tickets);
     }
 
-    /// <summary>
-    /// Create a ticket (fare product) for a flight.
-    /// </summary>
     [HttpPost]
     public async Task<ActionResult> Create(
         [FromBody] CreateTicketDto dto,
@@ -38,9 +32,6 @@ public class TicketsController : ControllerBase
         return CreatedAtAction(nameof(GetByFlight), new { flightId = dto.FlightId }, new { ticketId = id });
     }
 
-    /// <summary>
-    /// Update ticket price & basic data (not inventory).
-    /// </summary>
     [HttpPut("{id:long}")]
     public async Task<IActionResult> Update(
         long id,
@@ -51,9 +42,6 @@ public class TicketsController : ControllerBase
         return Ok();
     }
 
-    /// <summary>
-    /// Set seat inventory for a ticket.
-    /// </summary>
     [HttpPut("{id:long}/inventory")]
     public async Task<IActionResult> UpdateInventory(
         long id,
@@ -64,9 +52,6 @@ public class TicketsController : ControllerBase
         return Ok();
     }
 
-    /// <summary>
-    /// Delete ticket if no bookings exist.
-    /// </summary>
     [HttpDelete("{id:long}")]
     public async Task<IActionResult> Delete(
         long id,
