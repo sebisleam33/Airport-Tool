@@ -1,0 +1,8 @@
+﻿namespace AirportTool.Application.Common.Options;
+
+public class PagingOptions
+{
+    public int DefaultPage { get; set; } = 1;
+    public int DefaultPageSize { get; set; } = 20;
+    public int MaxPageSize { get; set; } = 100;
+}

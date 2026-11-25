@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.14.36705.20 d17.14
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirportTool.WebApi", "AirportTool\AirportTool.WebApi.csproj", "{2E46860A-47F5-4A67-A82C-0B579FCEDEC8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirportTool.Domain", "AirportTool.Domain\AirportTool.Domain.csproj", "{1D38957A-22FC-432B-8FA8-AD5673369BE3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirportTool.Application", "AirportTool.Application\AirportTool.Application.csproj", "{DF4003A4-A787-4661-B3DB-C69B217BBFE9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirportTool.Infrastructure", "AirportTool.Infrastructure\AirportTool.Infrastructure.csproj", "{579CAE3B-1CC5-42B5-939B-0A4BDFE16F0D}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AirportTool.Tests", "AirportTool.Tests\AirportTool.Tests.csproj", "{D2BA1854-CDC6-4814-B52F-8C3CB90DD11E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{2E46860A-47F5-4A67-A82C-0B579FCEDEC8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2E46860A-47F5-4A67-A82C-0B579FCEDEC8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2E46860A-47F5-4A67-A82C-0B579FCEDEC8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2E46860A-47F5-4A67-A82C-0B579FCEDEC8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{1D38957A-22FC-432B-8FA8-AD5673369BE3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1D38957A-22FC-432B-8FA8-AD5673369BE3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1D38957A-22FC-432B-8FA8-AD5673369BE3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1D38957A-22FC-432B-8FA8-AD5673369BE3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{DF4003A4-A787-4661-B3DB-C69B217BBFE9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{DF4003A4-A787-4661-B3DB-C69B217BBFE9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{DF4003A4-A787-4661-B3DB-C69B217BBFE9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{DF4003A4-A787-4661-B3DB-C69B217BBFE9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{579CAE3B-1CC5-42B5-939B-0A4BDFE16F0D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{579CAE3B-1CC5-42B5-939B-0A4BDFE16F0D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{579CAE3B-1CC5-42B5-939B-0A4BDFE16F0D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{579CAE3B-1CC5-42B5-939B-0A4BDFE16F0D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D2BA1854-CDC6-4814-B52F-8C3CB90DD11E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D2BA1854-CDC6-4814-B52F-8C3CB90DD11E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D2BA1854-CDC6-4814-B52F-8C3CB90DD11E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D2BA1854-CDC6-4814-B52F-8C3CB90DD11E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {874BAF4C-34B8-4230-A359-2CAD4A576312}
+	EndGlobalSection
+EndGlobal
